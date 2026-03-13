@@ -40,3 +40,26 @@ body{
 .enlaces {
     align-items: center;
 }
+/* menú superior */
+.menu-personalizado{
+  background-color:#ffffff;
+  border-bottom:1px solid #ddd;
+}
+
+.menu-personalizado .navbar-brand{
+  color:#000;
+  font-weight:bold;
+}
+
+.menu-personalizado .nav-link{
+  color:#000;
+  margin-right:10px;
+  padding:8px 12px;
+  border-radius:6px;
+}
+
+/* efecto cuando pasas el cursor */
+.menu-personalizado .nav-link:hover{
+  background-color:#e6f0ff; /* azul muy claro */
+  color:#000;
+}
