@@ -40,3 +40,25 @@ body{
 .enlaces {
     align-items: center;
 }
+
+----- Card with Hover ----
+.card-custom {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card-custom:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card-custom .card-title {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.card-custom .btn-custom {
+    border-radius: 25px;
+    padding: 8px 20px;
+}
