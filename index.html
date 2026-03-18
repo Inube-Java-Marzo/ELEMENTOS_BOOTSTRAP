@@ -12,48 +12,106 @@
 </head>
 
 <body>
-    <h1 class="text-center">
-        Elementos de bootstrap
-    </h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-<!-- Menú de navegación - Joseline González Hernández -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
-  <div class="container-fluid">
+    <!-- Menú de navegación - Joseline González Hernández -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container-fluid">
 
-    <a class="navbar-brand fw-bold" href="#">Mi Página</a>
+            <a class="navbar-brand fw-bold" href="#">Mi Página</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
 
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Inicio</a>
-        </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Tarjetas</a>
-        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tarjetas</a>
+                    </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
-        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
 
-      </ul>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Carrusel-Yamileth Antonio Ortega -->
+    <div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block"
+                        src="https://assets-blog.hostgator.mx/wp-content/uploads/2022/04/veja-como-funciona-o-bitbucket-1.webp"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block "
+                        src="https://img.freepik.com/foto-gratis/collaje-antecedentes-programacion_23-2149901789.jpg?semt=ais_hybrid&w=740&q=80"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block"
+                        src="https://thumbs.dreamstime.com/b/codificaci%C3%B3n-del-trabajo-desarrollador-de-software-con-el-nuevo-ordenador-tablero-instrumentos-dise%C3%B1o-ar-la-codificaci-n-los-125629505.jpg"
+                        alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
     </div>
 
-  </div>
-</nav>
-<!--Elemento tarjeta - Maria Guadalupe Puente-->
+    <!-- Elemento Modal Cesar Cruz -->
+    <div class="d-flex justify-content-center">
+        <div class="btn-modal">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver Elemento Modal
+            </button>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">¿Qué es un Modal?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Un modal es una ventana emergente que aparece encima del contenido principal y bloquea la interacción hasta que el usuario la cierre o responda.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Elemento tarjeta - Maria Guadalupe Puente-->
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -61,84 +119,55 @@
                     <h5 class="card-title">Programación Orientada a Objetos (POO)</h5>
                     <h6 class="card-subtitle">¿Qué es?</h6>
                     <p class="card-text">
-                    La Programación Orientada a Objetos (POO) es un paradigma de programación que organiza el software en objetos que combinan datos y comportamientos. Facilita la reutilización, mantenimiento y estructura del código mediante abstracción, encapsulación, herencia y polimorfismo.
+                        La Programación Orientada a Objetos (POO) es un paradigma de programación que organiza el
+                        software en objetos que combinan datos y comportamientos. Facilita la reutilización,
+                        mantenimiento y estructura del código mediante abstracción, encapsulación, herencia y
+                        polimorfismo.
                     </p>
-            
+
                     <div class="enlaces">
                         <a href="#" class="card-link">Enlace de Tarjeta</a>
-                        <a href="https://profile.es/blog/que-es-la-programacion-orientada-a-objetos/" class="card-link">Otro Enlace</a>
+                        <a href="https://profile.es/blog/que-es-la-programacion-orientada-a-objetos/"
+                            class="card-link">Otro Enlace</a>
                     </div>
-            
+
                 </div>
             </div>
         </div>
     </div> <!--- Tarjeta-->
-    
-     <!-- Collapse-Yamileth Antonio Ortega -->
-    <p class="m-4 p-2">
-      <button class="btn btn-success" data-bs-toggle="collapse"  data-bs-target="#collapseExample">
-        Mostrar elemento 
-      </button>
-      <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#collapseExample1" >
-        Más información  
-      </button>
-         <!-- Carrusel-Yamileth Antonio Ortega -->
 
-        <div >
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-              </ol>
-            <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block"
-                src="https://assets-blog.hostgator.mx/wp-content/uploads/2022/04/veja-como-funciona-o-bitbucket-1.webp"
-                alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block "
-                src="https://img.freepik.com/foto-gratis/collaje-antecedentes-programacion_23-2149901789.jpg?semt=ais_hybrid&w=740&q=80"
-                alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block"
-                src="https://thumbs.dreamstime.com/b/codificaci%C3%B3n-del-trabajo-desarrollador-de-software-con-el-nuevo-ordenador-tablero-instrumentos-dise%C3%B1o-ar-la-codificaci-n-los-125629505.jpg"
-                alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior </span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-          </a>
-        </div>
-  </div>
-      <!-- Boton de warning de Pedro-->
-      <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapseExample2">
-        reportar problema
-      </button>
+    <!-- Collapse-Yamileth Antonio Ortega -->
+    <p class="m-4 p-2">
+        <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#collapseExample">
+            Mostrar elemento
+        </button>
+        <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#collapseExample1">
+            Más información
+        </button>
+
+        <!-- Boton de warning de Pedro-->
+        <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapseExample2">
+            reportar problema
+        </button>
     </p>
     <div class="collapse m-2" id="collapseExample">
-      <div class="card card-body border-success">
-        Sol
-      </div>
+        <div class="card card-body border-success">
+            Sol
+        </div>
     </div>
     <div class="collapse m-2" id="collapseExample1">
-      <div class="card card-body border-danger">
-        El sol es una estrella que se encuentra en el centro de nuestro sistema solar. Es una esfera de plasma caliente que emite luz y calor, lo que hace posible la vida en la Tierra. El sol es una fuente de energía vital para nuestro planeta y desempeña un papel crucial en los procesos climáticos y biológicos.
-      </div>
+        <div class="card card-body border-danger">
+            El sol es una estrella que se encuentra en el centro de nuestro sistema solar. Es una esfera de plasma
+            caliente que emite luz y calor, lo que hace posible la vida en la Tierra. El sol es una fuente de energía
+            vital para nuestro planeta y desempeña un papel crucial en los procesos climáticos y biológicos.
+        </div>
     </div>
 
     <!--Collapse de watning Pedro-->
     <div class="collapse m-2" id="collapseExample2">
-      <div class="card card-body border-warning">
-      En caso de haber problemas con la web, favor de enviar un correo a Pedro@mail.com
-      </div>
+        <div class="card card-body border-warning">
+            En caso de haber problemas con la web, favor de enviar un correo a Pedro@mail.com
+        </div>
     </div>
     <!--======================================================= -->
 
