@@ -78,3 +78,32 @@ body{
 .btn-modal{
   padding: 50px;
 }
+
+/* Maria Guadalupe Puente */
+.btn-morado {
+    background-color: #a78bfa; /* morado suave */
+    border-color: #a78bfa;
+    color: white;
+    width: 50%;        
+    margin: 10 auto;
+
+}
+
+.btn-morado:hover {
+    background-color: #8b5cf6; /* un poco más oscuro */
+    border-color: #8b5cf6;
+}
+
+.offcanvas-morado {
+    background-color: #f5f3ff; /* fondo morado muy claro */
+}
+
+.offcanvas-morado .offcanvas-header {
+    background-color: #ddd6fe;
+}
+
+.offcanvas-morado .offcanvas-title {
+    color: #5b21b6;
+}
+
+/*================================================================*/
