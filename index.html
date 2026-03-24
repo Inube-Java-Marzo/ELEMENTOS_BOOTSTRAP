@@ -102,7 +102,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Un modal es una ventana emergente que aparece encima del contenido principal y bloquea la interacción hasta que el usuario la cierre o responda.
+                    Un modal es una ventana emergente que aparece encima del contenido principal y bloquea la
+                    interacción hasta que el usuario la cierre o responda.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -110,6 +111,30 @@
             </div>
         </div>
     </div>
+    <!-- Fin de Elemento Modal Cesar Cruz -->
+
+    <!-- ELEMENTO FORMULARIO CESAR CRUZ -->
+    <div class="d-flex justify-content-center">
+        <form class="formulario">
+            <div class="mb-3">
+                <h4>Formulario</h4>
+                <hr>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <!-- FIN DE ELEMENTO FORMULARIO CESAR CRUZ -->
 
     <!--Elemento tarjeta - Maria Guadalupe Puente-->
     <div class="container">
@@ -149,11 +174,11 @@
         <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapseExample2">
             reportar problema
         </button>
-        <div class="mt-3 ms-4">
-    <span class="badge rounded-pill text-bg-info">Versión 1.0.2</span>
-    <span class="badge rounded-pill text-bg-dark">Desarrollo</span>
-    <span class="badge rounded-pill text-bg-success">Online</span>
-</div>
+    <div class="mt-3 ms-4">
+        <span class="badge rounded-pill text-bg-info">Versión 1.0.2</span>
+        <span class="badge rounded-pill text-bg-dark">Desarrollo</span>
+        <span class="badge rounded-pill text-bg-success">Online</span>
+    </div>
     </p>
     <div class="collapse m-2" id="collapseExample">
         <div class="card card-body border-success">
@@ -176,47 +201,50 @@
     </div>
     <!--======================================================= -->
 
-<!--===============Maria Guadalupe Puente=================Body scrolling============================================================-->
+    <!--===============Maria Guadalupe Puente=================Body scrolling============================================================-->
 
-<head>
-    <meta charset="UTF-8">
-    <title>Offcanvas Morado</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Offcanvas Morado</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Tu CSS -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+        <!-- Tu CSS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-<button class="btn btn-morado" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-    Body scrolling
-</button>
+    <body>
 
-<div class="offcanvas offcanvas-start offcanvas-morado" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
-            Offcanvas con desplazamiento del cuerpo
-        </h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <p>
-            El body scrolling en Bootstrap es una funcionalidad que actualiza automáticamente 
-            los enlaces según la posición del scroll.
-        </p>
-    </div>
-</div>
+        <button class="btn btn-morado" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling">
+            Body scrolling
+        </button>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="offcanvas offcanvas-start offcanvas-morado" data-bs-scroll="true" data-bs-backdrop="false"
+            tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+                    Offcanvas con desplazamiento del cuerpo
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>
+                    El body scrolling en Bootstrap es una funcionalidad que actualiza automáticamente
+                    los enlaces según la posición del scroll.
+                </p>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
-<!--====================Maria Guadalupe Puente==============================================================================================-->
+        <!--====================Maria Guadalupe Puente==============================================================================================-->
 
 
-</body>
+    </body>
 
 </html>
 
@@ -238,37 +266,37 @@
 
 <!--menú desplegable - Joseline gonzalez-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Mi Sitio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdownMenu" aria-controls="navbarDropdownMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mi Sitio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdownMenu"
+            aria-controls="navbarDropdownMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarDropdownMenu">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
+        <div class="collapse navbar-collapse" id="navbarDropdownMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
 
-        <!-- Menú desplegable -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Servicios
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="menuDropdown">
-            <li><a class="dropdown-item" href="#">Diseño Web</a></li>
-            <li><a class="dropdown-item" href="#">Marketing</a></li>
-            <li><a class="dropdown-item" href="#">Consultoría</a></li>
-          </ul>
-        </li>
+                <!-- Menú desplegable -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+                        <li><a class="dropdown-item" href="#">Diseño Web</a></li>
+                        <li><a class="dropdown-item" href="#">Marketing</a></li>
+                        <li><a class="dropdown-item" href="#">Consultoría</a></li>
+                    </ul>
+                </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 <!--=========================================================================================== -->
-
-
