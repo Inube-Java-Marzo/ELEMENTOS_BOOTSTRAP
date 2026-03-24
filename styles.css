@@ -107,3 +107,61 @@ body{
 }
 
 /*================================================================*/
+
+
+/* Jorge Solis Estilos para el formulario con glassmorphism */
+
+<style>
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 40px;
+      width: 100%;
+      max-width: 400px;
+      color: white;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .form-control {
+      border-radius: 50px;
+      padding: 10px 20px;
+      border: none;
+    }
+
+    .form-control:focus {
+      box-shadow: 0 0 0 2px rgba(255,255,255,0.3);
+    }
+
+    .btn-custom {
+      border-radius: 50px;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .input-group-text {
+      border-radius: 50px 0 0 50px;
+      border: none;
+      background: rgba(255,255,255,0.2);
+      color: white;
+    }
+
+    a {
+      color: #e0e7ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
